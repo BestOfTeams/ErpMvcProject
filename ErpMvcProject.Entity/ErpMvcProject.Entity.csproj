@@ -41,9 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseClass.cs" />
+    <Compile Include="BaseStock.cs" />
+    <Compile Include="Cities.cs" />
     <Compile Include="Current.cs" />
     <Compile Include="CurrentGroups.cs" />
+    <Compile Include="Departments.cs" />
+    <Compile Include="EmployeeDetails.cs" />
+    <Compile Include="Products.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StockEntryLower.cs" />
+    <Compile Include="StockEntryTop.cs" />
+    <Compile Include="StockStatus.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

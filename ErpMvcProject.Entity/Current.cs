@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ErpMvcProject.Entity
 {
-   public class Current
+   public class Current:BaseClass
     {
-        public int Id { get; set; }
+       // public int Id { get; set; }
         public string cCode { get; set; }
         public int cTypeId { get; set; }
         public string cName { get; set; }
