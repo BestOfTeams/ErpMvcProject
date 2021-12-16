@@ -10,5 +10,6 @@ namespace ErpMvcProject.Entity
     {
         public int Id { get; set; }
         public string City { get; set; }
+       
     }
 }

@@ -11,5 +11,6 @@ namespace ErpMvcProject.Entity
         public int Id { get; set; }
         public int DepName { get; set; }
         public bool isActive { get; set; }
+       
     }
 }

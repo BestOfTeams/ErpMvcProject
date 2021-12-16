@@ -8,7 +8,7 @@ namespace ErpMvcProject.Entity
 {
    public class Current:BaseClass
     {
-       // public int Id { get; set; }
+      
         public string cCode { get; set; }
         public int cTypeId { get; set; }
         public string cName { get; set; }
@@ -35,7 +35,6 @@ namespace ErpMvcProject.Entity
         public string sMail1 { get; set; }
         public string sMail2 { get; set; }
         public string sMail3 { get; set; }
-
-
+      
     }
 }

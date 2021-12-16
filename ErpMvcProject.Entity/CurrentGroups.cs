@@ -12,5 +12,7 @@ public class CurrentGroups
         public string gName { get; set; }
         public bool isActive { get; set; }
         
+
+
     }
 }

@@ -16,6 +16,8 @@ namespace ErpMvcProject.Entity
         public decimal BuyingPrice { get; set; }       
         public decimal SalePrice { get; set; }
         public decimal ExposureTime { get; set; }
+       
+      
 
     }
 }
